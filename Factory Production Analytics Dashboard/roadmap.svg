@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Automated Fish Tank roadmap and block diagram">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Factory Production Analytics roadmap and block diagram">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f0fdfa"/>
+      <stop offset="0%" stop-color="#eff6ff"/>
       <stop offset="100%" stop-color="#ffffff"/>
     </linearGradient>
     <style>
@@ -10,15 +10,15 @@
       .body { font: 600 18px Arial, sans-serif; fill: #0f172a; }
       .small { font: 400 15px Arial, sans-serif; fill: #334155; }
       .card { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; rx: 18; }
-      .step { fill: #0f766e; opacity: 0.95; rx: 16; }
+      .step { fill: #1e40af; opacity: 0.95; rx: 16; }
       .stepText { font: 700 18px Arial, sans-serif; fill: white; }
-      .road { stroke: #0f766e; stroke-width: 6; fill: none; stroke-linecap: round; stroke-dasharray: 12 10; }
-      .dot { fill: #0f766e; }
-      .mini { fill: #f8fafc; stroke: #0f766e; stroke-width: 2; rx: 14; }
+      .road { stroke: #1e40af; stroke-width: 6; fill: none; stroke-linecap: round; stroke-dasharray: 12 10; }
+      .dot { fill: #1e40af; }
+      .mini { fill: #f8fafc; stroke: #1e40af; stroke-width: 2; rx: 14; }
     </style>
   </defs>
   <rect width="1200" height="720" fill="url(#bg)"/>
-  <text x="60" y="64" class="title">Automated Fish Tank Monitoring System</text>
+  <text x="60" y="64" class="title">Factory Production Analytics Dashboard</text>
   <text x="60" y="98" class="small">Roadmap and block diagram snapshot</text>
 
   <rect x="60" y="140" width="1080" height="240" class="card"/>
@@ -32,9 +32,9 @@
   <rect x="100" y="220" width="220" height="64" class="step"/>
   <rect x="410" y="250" width="220" height="64" class="step"/>
   <rect x="710" y="220" width="220" height="64" class="step"/>
-  <text x="126" y="250" class="stepText">Water: Normal</text>
-  <text x="436" y="280" class="stepText">Feed: Scheduled</text>
-  <text x="736" y="250" class="stepText">Clean: Ready</text>
+  <text x="128" y="250" class="stepText">Data: Captured</text>
+  <text x="438" y="280" class="stepText">KPI: Calculated</text>
+  <text x="736" y="250" class="stepText">View: Dashboard</text>
 
   <rect x="60" y="410" width="1080" height="250" class="card"/>
   <text x="90" y="452" class="subtitle">Block Diagram</text>
@@ -42,9 +42,9 @@
   <rect x="360" y="500" width="220" height="110" class="mini"/>
   <rect x="630" y="500" width="220" height="110" class="mini"/>
   <rect x="900" y="500" width="180" height="110" class="mini"/>
-  <text x="122" y="545" class="body">Sensors</text>
-  <text x="395" y="545" class="body">ESP32 Logic</text>
-  <text x="660" y="545" class="body">Pump / Feeder</text>
+  <text x="122" y="545" class="body">Factory Data</text>
+  <text x="395" y="545" class="body">KPI Engine</text>
+  <text x="664" y="545" class="body">Web API</text>
   <text x="936" y="545" class="body">Output</text>
   <path d="M 310 555 L 360 555" class="road"/>
   <path d="M 580 555 L 630 555" class="road"/>

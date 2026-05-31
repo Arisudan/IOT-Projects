@@ -43,7 +43,7 @@ If no CSV file is present, the project still runs with sample data.
 - Suggested usage trend
 
 ## Roadmap & Block Diagram
-![AI-Based Energy Consumption Predictor roadmap and block diagram](Roadmap1.svg)
+![AI-Based Energy Consumption Predictor roadmap and block diagram](roadmap.svg)
 
 ## Possible Enhancements
 - Web dashboard with charts
